@@ -52,6 +52,7 @@ Legal technology (legaltech) is the use of technology and software to provide le
 - [Legaltech Directories & Product Listing Platforms](#legaltech-directories--product-listing-platforms)
 - [Communities, Conferences & Media](#communities-conferences--media)
 - [Related Awesome Lists](#related-awesome-lists)
+- [Deprecated / Archived](#deprecated--archived)
 
 ---
 
@@ -68,6 +69,9 @@ Commercial and open APIs specifically designed for retrieving case law, statutes
 - [The Lens Patent & Scholarly API](https://www.lens.org/lens/user/subscriptions) - **[🌍 Global]** 140M+ global patent records and scholarly citations; free tier for academic/non-commercial use.
 - [EUR-Lex Webservice & CELLAR SPARQL](https://eur-lex.europa.eu/content/help/data-reuse/webservice.html) - **[🇪🇺 EU]** Free SOAP/SPARQL/REST endpoints for EU legislation, ECLI-indexed case law, and CDM-RDF metadata across 24 languages.
 - [JudiLibre API (Cour de cassation)](https://api.gouv.fr/les-api/api-judilibre) - **[🇫🇷 France]** Official French Supreme Court open API for judicial case-law via PISTE; free with registration.
+- [UK Parliament Open Data API](https://developer.parliament.uk/) - **[🇬🇧 UK]** REST APIs for Westminster procedural data plus the [Hansard API](https://hansard-api.parliament.uk/) for debates in JSON/XML under the Open Parliament Licence.
+- [Bundestag Open Data](https://www.bundestag.de/services/opendata) - **[🇩🇪 Germany]** Plenary protocols and Drucksachen since 1949 as XML/JSON; legislative-process tracking via the DIP API.
+- [Regulations.gov API](https://open.gsa.gov/api/regulationsgov/) / [Federal Register API](https://www.federalregister.gov/developers/documentation/api/v1) - **[🇺🇸 US]** GSA REST APIs for federal rules, dockets, and public comments; complementary daily Federal Register API.
 
 ---
 
@@ -776,6 +780,81 @@ Browser-based platforms and search engines for case law, statutes, and dockets.
 
 </details>
 
+<details>
+<summary>🌍 Official Government Portals (Curated, beyond WorldLII/CommonLII coverage)</summary>
+
+Direct links to canonical government legal-data sources for jurisdictions where the WorldLII/CommonLII/SAFLII/AsianLII coverage above points to aggregators or has thin entries.
+
+**Latin America**
+- [Ley Chile (BCN)](https://www.bcn.cl/leychile/) - 🇨🇱 Official consolidated database of Chilean laws, decrees, and Supreme Court jurisprudence linked to each norm (free).
+- [SUIN-Juriscol](https://www.suin-juriscol.gov.co/) - 🇨🇴 Colombian Ministerio de Justicia portal; 87k+ norms from 1864 plus 13k+ Constitutional Court, Council of State, and Supreme Court judgments.
+- [SPIJ — Sistema Peruano de Información Jurídica](https://spijweb.minjus.gob.pe/) - 🇵🇪 Ministry of Justice portal; constitutions, codes, laws from 1904, regulations from 1978, constitutional/administrative jurisprudence.
+- [IMPO — Centro de Información Oficial](https://www.impo.com.uy/) - 🇺🇾 Uruguay's official Diario Oficial portal with complete legislative history from Law No. 1.
+- [Gaceta Oficial de Bolivia](http://www.gacetaoficialdebolivia.gob.bo/) - 🇧🇴 Official Gazette of the Plurinational State of Bolivia.
+- [Gaceta Oficial Paraguay](https://www.gacetaoficial.gov.py/) - 🇵🇾 Daily official gazette publishing Paraguayan laws and decrees.
+
+**MENA & Arabian Peninsula**
+- [Bureau of Experts at the Council of Ministers](https://www.boe.gov.sa/en/Pages/default.aspx) - 🇸🇦 Saudi Arabia's official portal for laws, regulations, royal decrees (Arabic/English).
+- [UAE Legislations Platform](https://uaelegislation.gov.ae/en) - 🇦🇪 Unified portal from the General Secretariat of the UAE Cabinet covering federal laws, executive regulations, and resolutions.
+- [Al-Meezan](https://www.almeezan.qa/Default.aspx?language=en) - 🇶🇦 Qatar's Ministry of Justice portal covering all in-force and historical Qatari legislation since 1961.
+- [Knesset National Legislation Database](https://main.knesset.gov.il/en/activity/pages/basiclaws.aspx) - 🇮🇱 Official Knesset database of Israeli laws and parliamentary process (Hebrew/English).
+- [Manshurat](https://manshurat.org/) - 🇪🇬 Searchable Egyptian Presidency Official Gazette plus other Arab-region legislation.
+- [SGG Maroc — Bulletin Officiel](https://www.sgg.gov.ma/BulletinOfficiel.aspx) - 🇲🇦 Morocco's Secrétariat Général du Gouvernement Official Bulletin (Arabic + French editions).
+
+**Southeast Asia**
+- [Singapore Statutes Online](https://sso.agc.gov.sg/) - 🇸🇬 Attorney-General's Chambers free database of current and historical Singapore legislation and bills.
+- [AGC Malaysia Federal Legislation](https://lom.agc.gov.my/) - 🇲🇾 Official electronic Gazette publishing all Malaysian Acts and subsidiary legislation since 2011.
+- [Ratchakitcha — Royal Thai Government Gazette](https://ratchakitcha.soc.go.th/) - 🇹🇭 Official Gazette where laws take force on publication; archive from 1858 (Thai).
+- [VBPL — Vietnam National Legal Documents Database](https://vbpl.vn/) - 🇻🇳 Ministry of Justice database (relaunched April 2024 with article-level structured data).
+- [Supreme Court E-Library (Philippines)](https://elibrary.judiciary.gov.ph/) - 🇵🇭 Official Supreme Court online repository of decisions and Philippine Reports.
+
+**South Asia**
+- [Pakistan Code](https://pakistancode.gov.pk/) - 🇵🇰 Ministry of Justice consolidated federal statutes (English).
+- [Laws of Bangladesh](http://bdlaws.minlaw.gov.bd/) - 🇧🇩 Ministry of Law information system with up-to-date Bangladesh legislation (English/Bangla).
+- [Parliament of Sri Lanka — Acts & Bills](https://www.parliament.lk/en/business-of-parliament/acts-bills) - 🇱🇰 All Acts and amendments 1948-present (English/Sinhala/Tamil).
+
+**East Asia**
+- [Hong Kong e-Legislation (HKeL)](https://www.elegislation.gov.hk/) - 🇭🇰 Department of Justice's official, verified consolidated legislation portal — sole authoritative source since 2025.
+- [National Database of Laws and Regulations (NPC)](https://flk.npc.gov.cn/) - 🇨🇳 Official NPC database covering statutes, legislative interpretations, and major decisions across all seven branches of Chinese law.
+
+**Eastern Europe & former USSR**
+- [Official Internet Portal of Legal Information](http://pravo.gov.ru/) - 🇷🇺 Official daily-updated repository of Russian Federation laws and federal decrees.
+- [Legislation of Ukraine](https://zakon.rada.gov.ua/laws/main/en/index) - 🇺🇦 Verkhovna Rada's official legal database with English interface.
+- [Adilet LIS](https://adilet.zan.kz/eng) - 🇰🇿 Kazakh Ministry of Justice Legal Information System (Kazakh/Russian/English).
+- [e-Sbírka](https://zakony.gov.cz/) - 🇨🇿 Official digital collection of Czech laws launched 2024 with historical versions and EUR-Lex/N-Lex integration.
+- [Slov-Lex](https://www.slov-lex.sk/web/en) - 🇸🇰 Slovak Ministry of Justice portal with binding consolidated electronic texts (Slovak/English).
+- [Nemzeti Jogszabálytár (NJT)](https://njt.hu/) - 🇭🇺 Hungary's free National Legislation Database run by Magyar Közlöny.
+- [Portal Legislativ](https://legislatie.just.ro/) - 🇷🇴 Romanian Ministry of Justice consolidated portal for Monitorul Oficial Part I.
+- [Lex.bg](https://lex.bg/) - 🇧🇬 Comprehensive Bulgarian legal database mirroring State Gazette content.
+- [PIS-RS](https://pisrs.si/) - 🇸🇮 Slovenia's Pravno-informacijski sistem with Slovenian and EU legislation, case-law links.
+- [Narodne novine](https://www.nn.hr/) - 🇭🇷 Croatian Official Gazette publishing laws, regulations, and constitutional court decisions.
+- [Pravno-informacioni sistem RS](http://www.pravno-informacioni-sistem.rs/) - 🇷🇸 Legal Information System of Serbia with electronic Official Gazette and case law.
+- [Riigi Teataja](https://www.riigiteataja.ee/en/) - 🇪🇪 Sole official electronic State Gazette of Estonia since 2010 (Estonian/English).
+- [Likumi.lv](https://likumi.lv/) - 🇱🇻 Official portal of consolidated Latvian legal acts (Latvian + selected English).
+- [e-TAR](https://www.e-tar.lt/) - 🇱🇹 Lithuania's official register of legal acts.
+
+**Nordic**
+- [Retsinformation](https://www.retsinformation.dk/) - 🇩🇰 Official joint Danish legal-information system with statutes, executive orders, Folketing documents from 1985, and Ombudsman opinions.
+- [Lagrummet](https://www.lagrummet.se/) - 🇸🇪 Domstolsverket-coordinated portal aggregating SFS legislation, preparatory works, and higher-court case law.
+- [Lovdata](https://lovdata.no/) - 🇳🇴 Foundation-run portal with Norsk Lovtidend, consolidated legislation, Supreme Court rulings (free + paid Pro tier).
+- [Finlex](https://www.finlex.fi/en) - 🇫🇮 Ministry of Justice's 30+ databanks: legislation, case law, treaties, government proposals (Finnish/Swedish/English); also [Semantic Finlex](https://data.finlex.fi/) SPARQL endpoint.
+- [Stjórnartíðindi](https://www.stjornartidindi.is/) - 🇮🇸 Iceland Government Gazette online edition.
+
+**Oceania**
+- [New Zealand Legislation](https://www.legislation.govt.nz/) - 🇳🇿 Parliamentary Counsel Office portal with all Bills, Acts, and Legislative Instruments.
+
+</details>
+
+#### International Courts & Tribunals
+- [International Court of Justice (ICJ)](https://www.icj-cij.org/decisions) - All judgments, orders, and advisory opinions since 1946; full PDF advanced search (English/French).
+- [ICC Case Law Database](https://www.legal-tools.org/cld) - 6,000+ legal findings from International Criminal Court judgments and decisions since 2004 (English/French).
+- [WTO Dispute Settlement Gateway](https://www.wto.org/english/tratop_e/dispu_e/dispu_e.htm) - Panel and Appellate Body reports searchable by complainant, respondent, and agreement, with the WTO Analytical Index.
+- [Inter-American Court of Human Rights](https://corteidh.or.cr/casos_sentencias.cfm?lang=en) - Contentious cases, advisory opinions, provisional measures, and monitoring decisions (Spanish/English/Portuguese).
+- [ITLOS — International Tribunal for the Law of the Sea](https://www.itlos.org/en/main/cases/list-of-cases/) - All UNCLOS proceedings with pleadings, judgments, and webcasts (English/French).
+- [Permanent Court of Arbitration (PCA)](https://pca-cpa.org/cases/) - Inter-state, investor-state, and commercial arbitration awards and procedural orders.
+- [ICSID Case Database](https://icsid.worldbank.org/cases/case-database) - Searchable repository of all registered ICSID investor-state arbitrations with decisions, awards, and arbitrator profiles.
+- [African Court on Human and Peoples' Rights](https://www.african-court.org/cpmt/) - Official AfCHPR case database with judgments, procedural decisions, provisional measures, and advisory opinions.
+
 #### Global & Multi-Jurisdictional
 - [WorldLII](https://www.worldlii.org/databases.html) - Federated gateway to 2,000+ legal databases across 200+ jurisdictions via national LIIs.
 - [CommonLII](http://www.commonlii.org) - Searchable legal databases from 60+ Commonwealth and common law jurisdictions.
@@ -881,6 +960,7 @@ Software for generating, assembling, and reviewing legal documents.
 - [ContractExpress](https://www.thomsonreuters.com) - **[Established]** Thomson Reuters' document automation platform.
 - [Litera](https://litera.com) - **[Established]** Document drafting, proofreading, and deal management suite.
 - [Accord Project Template Archive](https://github.com/accordproject/template-archive) - **[Open Source]** Smart legal contracts and templating system (Cicero / Concerto).
+- [Gavel (formerly Documate)](https://www.gavel.io/) - **[Established]** No-code document automation + online legal product builder used to ship apps in estate planning, family law, real estate, probate, and immigration.
 
 ---
 
@@ -971,6 +1051,15 @@ Software for running a law practice and legal department operations - case manag
 - [J-Lawyer](https://www.j-lawyer.org) - **[Open Source]** German law practice management.
 - [Elint AI / Justice Accelerator](https://elint.in) - **[Open Source]** Blockchain case management infrastructure for courts and ADR (India/UAE).
 - [Theo AI](https://theoai.ai/) - **[AI-Native]** Predictive AI for litigation defense and settlement outcome forecasting for enterprise legal departments.
+- [Briefpoint](https://briefpoint.ai/) - **[AI-Native]** Patented AI for drafting discovery requests/responses with "Bridge" client-response automation; used by 1,500+ firms.
+- [Bridge Legal](https://bridgelegal.com/) - **[AI-Native]** Bridgify AI workflow stack for mass-tort and PI firms covering intake, court-required questionnaires, and lifecycle management.
+- [Pattern Data](https://patterndata.ai/) - **[AI-Native]** HIPAA-compliant RAG-based engine that reads thousands of pages of medical records to score and structure mass-tort claims.
+- [Steno](https://steno.com/) - **[Established]** Court-reporting agency + Steno Connect remote-deposition platform + "Transcript Genius" AI; closed $46M financing in 2024.
+- [Veritext](https://www.veritext.com/) - **[Established]** National court reporting/deposition firm with Veritext Virtual, realtime transcription, and Exhibit Share.
+- [Burford Capital](https://www.burfordcapital.com/) - **[Established]** NYSE/LSE-listed litigation funder ($12.1B+ committed since inception) financing single cases, portfolios, and asset recovery.
+- [Omni Bridgeway](https://omnibridgeway.com/) - **[Established]** Global dispute-finance firm with ~A$3.5B cumulative capital across 11 funds, ASX-listed since 2001.
+- [Qualia](https://www.qualia.com/) - **[Established]** Leading cloud title/escrow/closing platform with Qualia Clear AI for title commitments and curative-task recommendations; >1M professionals.
+- [Doma](https://www.doma.com/) - **[Established]** Machine-learning title underwriting + instant fee balancing integrated with Chase, Wells Fargo, PennyMac; ~83% US residential coverage.
 
 ---
 
@@ -994,6 +1083,13 @@ Platforms delivering direct-to-consumer automated legal services, documents, and
 - [DoNotPay](https://donotpay.com) - **[AI-Native]** Consumer advocacy platform marketing itself as the "world's first robot lawyer".
 - [Klaro Legal](https://klaro.legal) - **[AI-Native]** Translates contracts, official letters, and tax notices into plain language using AI. Supports 8 languages (DE, EN, ES, FR, IT, PT, TR).
 - [JustiGuide](https://justiguide.com/) - **[AI-Native]** AI immigration assistant (Dolores AI, trained on 1M+ cases) that scores visa eligibility, matches attorneys, and drafts filings in 12 languages; 47K+ users across 180+ countries.
+- [Boundless Immigration](https://www.boundless.com/) - **[Established]** Software + expert legal guidance for family, employment, and citizenship cases; acquired Localyze in Oct 2025 ($73.8M raised).
+- [Visalaw.ai](https://www.visalaw.ai/) - **[AI-Native]** SOC 2 Type II-certified immigration research/drafting platform co-developed with AILA on top of GPT-4 and AILA's Cookbook.
+- [Docketwise](https://www.docketwise.com/) - **[Established]** Immigration-specific case management with dynamic form completion, billing, and CRM.
+- [Hello Divorce](https://hellodivorce.com/) - **[Established]** Venture-backed "TurboTax for divorce" with document automation + on-demand lawyers, mediators, and divorce coaches in all 50 states.
+- [Trust & Will](https://trustandwill.com/) - **[Established]** Largest US consumer estate-planning platform with attorney-network and AI features; raised $25M+ Series C (March 2025).
+- [Wealth.com](https://www.wealth.com/) - **[AI-Native]** Estate-planning platform for RIAs/wirehouses with "Ester" AI doc extraction; underpins wealth managers running >$15T AUM.
+- [SoloSuit](https://www.solosuit.com/) - **[AI-Native]** "TurboTax for debt-collection lawsuits" — auto-drafts answers and runs SoloSettle negotiations; has helped 350,000+ Americans protect $2.5B+ in debt.
 
 ---
 
@@ -1010,6 +1106,8 @@ Tools for regulatory compliance, policy management, financial crime detection, a
 - [NAVEX](https://www.navex.com) - **[Established]** Integrated risk and compliance management.
 - [Kira Systems](https://kirasystems.com) - **[Established]** ML-based contract analysis for due diligence and compliance.
 - [Sphere](https://www.getsphere.com/) - **[AI-Native]** AI-native cross-border indirect tax (sales tax, VAT, GST) compliance engine serving Deel, Replit, and Lovable; $21M Series A led by a16z (Nov 2025).
+- [Climate Case Chart](https://www.climatecasechart.com/) - **[Open / Academic]** Sabin Center + Arnold & Porter database of 2,600+ US and global climate-change cases across 54 jurisdictions, updated monthly.
+- [Persefoni](https://www.persefoni.com/) - **[AI-Native]** "ERP of carbon" climate-accounting platform supporting CSRD, SEC climate rule, TCFD, and CDP disclosures for enterprises and financial institutions.
 
 ---
 
@@ -1038,6 +1136,10 @@ Organizations and software actively using technology to advance access to justic
 - [AsylumConnect](https://asylumconnect.org) - **[Nonprofit]** Open-source resource matching for LGBTQ+ asylum seekers.
 - [Electronic Frontier Foundation (EFF)](https://eff.org) - **[Nonprofit]** Policy, advocacy, and legal defense for digital rights.
 - [ABA Free Legal Answers](https://freelegalanswers.org) - **[Nonprofit]** Virtual pro bono legal advice clinic.
+- [Recidiviz](https://www.recidiviz.org/) - **[Nonprofit]** ex-Google nonprofit building a standardized criminal-justice data layer + reentry/parole tools; live in 19 state corrections agencies.
+- [Clear My Record (Code for America)](https://www.clearmyrecord.org/) - **[Nonprofit]** Code for America initiative powering automatic record-sealing/expungement; helped reduce or dismiss 144,000 California cannabis convictions.
+- [World Justice Project Rule of Law Index](https://worldjusticeproject.org/rule-of-law-index/) - **[Nonprofit]** Annual data series measuring rule of law across 143 jurisdictions (95% of world population).
+- [HiiL (Hague Institute for Innovation of Law)](https://www.hiil.org/) - **[Nonprofit]** Justice Accelerator (110+ startups funded since 2011), Justice Innovation Labs, and people-centred justice research.
 
 ## Foundational Research
 
@@ -1057,6 +1159,21 @@ Seminal papers that shaped the field of legal AI and NLP. Essential reading for 
 - [NLP for the Legal Domain: A Survey](https://arxiv.org/abs/2410.21306) - **[2024]** - Katz et al. — most comprehensive recent legal-NLP survey of tasks, datasets, models, and challenges (ACM Computing Surveys 2025).
 - [A Comprehensive Survey on Legal Summarization](https://arxiv.org/abs/2501.17830) - **[2025]** - Systematic survey of legal-summarization methods, datasets, and evaluation metrics.
 - [A Reasoning-Focused Legal Retrieval Benchmark](https://arxiv.org/abs/2505.03970) - **[2025]** - Goebel et al. (CSLAW 2025) — retrieval benchmark emphasizing legal reasoning over surface matching.
+
+---
+
+## Peer-Reviewed Journals
+
+Academic journals publishing peer-reviewed legal-technology, computational-law, and AI-and-law research.
+
+- [Artificial Intelligence and Law (Springer)](https://link.springer.com/journal/10506) - Flagship peer-reviewed journal of formal/computational models of legal reasoning since 1992; IF 3.1 (2024).
+- [Stanford Computational Antitrust](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/projects/computational-antitrust/) - CodeX-hosted open-access journal led by Thibault Schrepel; cross-agency reports from 25 antitrust authorities.
+- [Harvard Journal of Law & Technology (JOLT)](https://jolt.law.harvard.edu/) - Harvard Law's premier law-and-tech journal (Vol. 39 in 2025-26); also runs the JOLT Digest blog.
+- [Berkeley Technology Law Journal (BTLJ)](https://btlj.org/) - America's first technology-law journal (est. 1985); 4 issues/year; Vol. 40 (2025) covers AI trade secrets, algorithmic liability, antitrust, privacy.
+- [Law, Innovation and Technology (Taylor & Francis)](https://www.tandfonline.com/journals/rlit20) - Hybrid OA peer-reviewed journal on ICT, biotech, neurotech, robotics, and AI; IF 3.07 (2024).
+- [Computer Law & Security Review (Elsevier)](https://www.sciencedirect.com/journal/computer-law-and-security-review) - Q1 Scopus/SSCI peer-reviewed journal on IT and computer-security law (6 issues/year since 1985); IF 4.89 (2024).
+- [Indian Journal of Law and Technology (IJLT)](https://repository.nls.ac.in/ijlt/) - NLSIU Bangalore student-run open-access journal (est. 2005).
+
 ---
 
 ## Benchmarks & Evaluation
@@ -1139,6 +1256,15 @@ Platforms that index, curate, review, or list legal technology products — usef
 - [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) - **[Academic]** - Stanford lab focused on technology and design for access to justice.
 - [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) - **[Academic]** - Harvard Law School programs tracking legal tech and legal innovation initiatives.
 - [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) - **[Harvard Law School programs tracking legal tech and legal innovation initiatives.]** - Academic
+- [Stanford RegLab](https://reglab.stanford.edu/) - **[Academic]** Stanford Regulation, Evaluation, and Governance Lab; partners with IRS, courts, and local governments; behind the 2024 Westlaw/Lexis+ AI hallucination studies.
+- [Yale Information Society Project (ISP)](https://law.yale.edu/isp) - **[Academic]** Yale Law School's flagship law-tech-society center (founded 1997, Jack Balkin); runs MFIA Clinic and Majority World Initiative.
+- [Berkeley Center for Law & Technology (BCLT)](https://www.law.berkeley.edu/research/bclt/) - **[Academic]** UC Berkeley's interdisciplinary center for IP, privacy, cybersecurity, and AI law; co-sponsors PLSC and IPSC.
+- [Maastricht Law and Tech Lab](https://www.maastrichtuniversity.nl/research/law-and-tech-lab) - **[Academic]** Co-creation lab combining law, data science, and knowledge engineering; maintains the widely-cited `awesome-legal-nlp`.
+- [CIRSFID-AI / ALMA-AI (University of Bologna)](https://centri.unibo.it/alma-ai/en/scientific-units/ai-for-law-and-governance) - **[Academic]** Bologna's interdepartmental center for AI, law, and legal informatics (founded 1986); home to the Legal Blockchain Lab and Legal Machine Lab.
+- [Bucerius Center for Legal Technology and Data Science](https://www.legaltechcenter.de/en/) - **[Academic]** Hamburg-based center led by Dan Katz and Dirk Hartung; runs the free annual Legal Tech Essentials lecture series with SMU.
+- [NUS TRAIL — Centre for Technology, Robotics, AI and the Law](https://law.nus.edu.sg/trail/) - **[Academic]** NUS Law's interdisciplinary think-tank on AI/robotics regulation and data protection; runs AI Governance & Liability conference series.
+- [SMU Centre for Digital Law](https://cdl.smu.edu.sg/) - **[Academic]** Singapore Management University NRF-funded program building DSLs for "smart" contracts and statutes (S$15M grant); hosts ICAIL 2026.
+- [Atticus Project](https://www.atticusprojectai.org/) - **[Nonprofit/Academic]** Nonprofit of practicing attorneys producing open-source benchmarks (CUAD, MAUD, ACORD) and AI education for legal practice.
 ---
 
 ## Communities, Conferences & Media
@@ -1150,6 +1276,8 @@ Stay current with the legaltech ecosystem.
 - [LawTech.UK](https://lawtech.uk) - UK-focused legal innovation community.
 - [HFforLegal (Hugging Face)](https://huggingface.co/HFforLegal) - Community for legal AI practitioners on Hugging Face.
 - [CLOC (Corporate Legal Operations Consortium)](https://cloc.org) - 3,000+ member community for in-house legal operations professionals.
+- [Suffolk LIT Lab Slack](https://suffolklitlab.org/howto/) - Public Slack channels from the nation's top-ranked legal-tech program; access-to-justice and document-automation focus.
+- [Legal.io HQ](https://www.legal.io/) - Community of 4,000+ attorneys and legal-ops professionals (Slack + jobs board).
 
 ### Reddit Communities
 - [r/LegalTech](https://reddit.com/r/legaltech) - The primary subreddit strictly dedicated to legal technology discussion, software, and AI in law.
@@ -1162,12 +1290,29 @@ Stay current with the legaltech ecosystem.
 - [ILTACON](https://www.iltanet.org/events/iltacon) - International Legal Technology Association annual conference.
 - [CLOC Global Institute](https://cloc.org) - Annual conference for corporate legal operations.
 - [LegalGeek](https://www.legalgeek.co) - UK-based innovation conference for the legal industry.
+- [ICAIL — International Conference on AI and Law](https://iaail.org/) - IAAIL's flagship academic conference (since 1987); now annual. ICAIL 2025 at Northwestern; ICAIL 2026 at SMU Singapore.
+- [JURIX](https://jurix.nl/) - International Conference on Legal Knowledge and Information Systems (since 1988); proceedings published in IOS Press FAIA (gold OA).
+- [NLLP Workshop](https://nllpw.org/workshop/) - Premier Natural Legal Language Processing workshop co-located with EMNLP since 2021.
+- [COLIEE](https://coliee.org/) - Annual Competition on Legal Information Extraction/Entailment on Japanese and Canadian case- and statute-law.
+- [CodeX FutureLaw](https://conferences.law.stanford.edu/futurelaw/) - Stanford CodeX's flagship annual gathering for legal informatics; 2025 marked the 20th anniversary.
+- [Global Legal Hackathon](https://globallegalhackathon.com/) - World's largest legal hackathon; runs in 75+ countries with a London-based international final.
 
 ### Newsletters & Media
 - [Artificial Lawyer](https://www.artificiallawyer.com) - Deep-coverage publication on AI and legal tech. Free daily news.
 - [Lawnext](https://www.lawnext.com) - Podcast and news by Bob Ambrogi on legal technology innovation.
 - [Legal Tech Talk](https://legaltech-talk.com) - News and analysis on legal technology trends.
 - [The Legal Innovators](https://legal-innovators.com) - Newsletter covering the business of law and legaltech.
+- [Brainyacts](https://thebrainyacts.beehiiv.com/) - Josh Kubicki's near-daily newsletter on generative AI in law (6,000+ subscribers).
+- [Legal IT Insider / The Orange Rag](https://legaltechnology.com/) - Caroline Hill's daily news plus monthly Orange Rag digital newsletter; running since 1995.
+- [Jordan Furlong Substack](https://jordanfurlong.substack.com/) - Weekly newsletter from legal-industry analyst Jordan Furlong (replacement for his Law21 blog).
+- [The Geek In Review](https://www.geeklawblog.com/podcast) - Greg Lambert and Marlene Gebauer's weekly legaltech podcast tied to 3 Geeks and a Law Blog.
+- [Lawyerist Podcast](https://lawyerist.com/podcast/) - Stephanie Everett and Zack Glaser's weekly podcast on law-firm tech and management (617+ episodes).
+- [LawDroid Manifesto](https://www.lawdroidmanifesto.com/podcast) - Tom Martin's Substack-hosted interview show on legal AI and access to justice.
+- [Patently-O](https://patentlyo.com/) - Prof. Dennis Crouch's leading US patent-law blog with daily Federal Circuit analysis.
+- [The IPKat](https://ipkitten.blogspot.com/) - UK/EU IP-law blog by Eleonora Rosati and team; multiple posts weekly.
+- [Village de la Justice](https://www.village-justice.com/) - 🇫🇷 France's permanent observatory of legaltech actors plus daily legal-profession news.
+- [JUVE](https://www.juve.de/) - 🇩🇪 German legal-market publication with a dedicated Legal Tech & Legal Operations section.
+- [LiveLaw](https://www.livelaw.in/) - 🇮🇳 India's leading legal-news portal — Supreme Court and High Court breaking news, judgments, and analysis.
 
 ## Related Awesome Lists
 
@@ -1176,6 +1321,18 @@ Stay current with the legaltech ecosystem.
 - [sindresorhus/awesome](https://github.com/sindresorhus/awesome) - The original meta awesome list.
 - [openlegaldata/awesome-legal-data](https://github.com/openlegaldata/awesome-legal-data) - Curated collection of legal text-processing datasets and resources.
 - [Jeryi-Sun/LLM-and-Law](https://github.com/Jeryi-Sun/LLM-and-Law) - Continually-updated paper list on LLMs applied to law.
+
+---
+
+## Deprecated / Archived
+
+Entries that were previously listed but have since been archived, sunset, acquired-and-shut-down, or otherwise stopped being maintained. Kept visible so readers don't rediscover dead links and so the history of the space is preserved. An entry moves here (rather than getting deleted) when the upstream repo is GitHub-archived, the company shuts down or the product is discontinued, or there has been no meaningful activity for 2+ years. Include a short note on what happened and, where useful, a pointer to a successor.
+
+<!-- Format:
+- [Name](https://url) - **[Archived YYYY-MM]** - What it was, what happened, and (optionally) what replaced it.
+-->
+
+*No entries yet.*
 
 ---
 
